@@ -1,0 +1,343 @@
+/* RESET & BASE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Gradient Background tetap dipertahankan sesuai request kode ini */
+    background: linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 50%, #80deea 100%);
+    color: #333;
+    min-height: 100vh;
+    overflow-x: hidden; /* Mencegah scroll horizontal pada body */
+}
+
+/* TOP NAVIGATION */
+.top-nav {
+    background: linear-gradient(135deg, #26a69a 0%, #00897b 100%);
+    color: white;
+    padding: 20px 40px; /* Padding sedikit dikecilkan agar tidak terlalu boros tempat */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 8px 24px rgba(0, 150, 136, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Z-index dinaikkan agar tidak tertutup elemen lain */
+    border-radius: 0 0 24px 24px;
+    width: 100%;
+}
+
+.top-nav h1 {
+    font-size: 1.6rem; /* Font size disesuaikan */
+    font-weight: 700;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.top-nav h1 i {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px;
+    border-radius: 12px;
+    font-size: 1.2rem;
+}
+
+.top-nav p {
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+.top-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* BUTTONS (Nav) */
+.manage-btn,
+.logout-btn {
+    padding: 10px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    white-space: nowrap; /* Mencegah teks tombol turun baris */
+}
+
+.manage-btn {
+    background: white;
+    color: #00897b;
+}
+
+.manage-btn:hover {
+    background: #fff8e1; /* Warna hover sedikit lebih lembut */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.logout-btn {
+    background: #ff7043;
+    color: white;
+}
+
+.logout-btn:hover {
+    background: #d84315;
+    transform: translateY(-2px);
+}
+
+/* MAIN LAYOUT */
+.main-container {
+    padding: 30px;
+    max-width: 1600px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* ERROR MESSAGE */
+.error-message {
+    background: #ff5252;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 500;
+    box-shadow: 0 4px 15px rgba(255, 82, 82, 0.3);
+}
+
+/* DASHBOARD GRID - BAGIAN KRUSIAL YANG DIPERBAIKI */
+.dashboard-container {
+    display: grid;
+    /* FIX: Mengubah 480px menjadi 350px. 480px terlalu lebar untuk sidebar form */
+    grid-template-columns: 350px 1fr; 
+    gap: 30px;
+    align-items: start;
+}
+
+/* Mencegah layout rusak karena tabel */
+.table-column {
+    min-width: 0; /* SANGAT PENTING: Mencegah grid item melebar paksa */
+    overflow: hidden; /* Memastikan border radius card tetap rapi */
+}
+
+/* CARD STYLING */
+.card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 137, 123, 0.1); /* Shadow disesuaikan */
+    overflow: visible;
+    position: relative;
+    height: 100%; /* Agar card mengisi tinggi container jika perlu */
+}
+
+.card-header {
+    background: linear-gradient(135deg, #26a69a 0%, #00897b 100%);
+    color: white;
+    padding: 20px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px 20px 0 0;
+}
+
+.card-header h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* FORM STYLING */
+form {
+    padding: 24px;
+    overflow: visible;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #455a64;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 12px 16px;
+    border: 2px solid #e0f2f1;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    transition: 0.3s;
+    background-color: #fafaFA;
+    font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #26a69a;
+    background-color: white;
+    box-shadow: 0 0 0 4px rgba(38, 166, 154, 0.1);
+    z-index: 100;
+}
+
+/* Tombol Submit */
+button[type="submit"] {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, #26a69a 0%, #00897b 100%);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+button[type="submit"]:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 137, 123, 0.4);
+}
+
+.cancel-btn {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    margin-top: 10px;
+    color: #78909c;
+    text-decoration: none;
+    font-size: 0.9rem;
+    border: 1px solid transparent;
+    border-radius: 50px;
+}
+
+.cancel-btn:hover {
+    color: #546e7a;
+    background: #eceff1;
+}
+
+/* TABLE STYLING */
+.table-container {
+    overflow-x: auto;
+        overflow-y: visible;
+        padding: 0;
+        width: 100%;
+        border-radius: 0 0 20px 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Mengubah separate menjadi collapse agar lebih rapi */
+    min-width: 900px; /* Lebar minimum tabel */
+}
+
+thead th {
+    background-color: #f1f8e9; /* Header tabel agak terang */
+    color: #2e7d32;
+    padding: 16px;
+    text-align: left;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 2px solid #c8e6c9;
+}
+
+tbody td {
+    padding: 16px;
+    border-bottom: 1px solid #eee;
+    color: #424242;
+    font-size: 0.9rem;
+    vertical-align: middle;
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+tbody tr:hover {
+    background-color: #f1f8e9;
+}
+
+/* Status Badges */
+.status-badge {
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    background: #e8f5e9;
+    color: #2e7d32;
+    border: 1px solid #c8e6c9;
+}
+
+/* Action Links */
+.action-links {
+    display: flex;
+    gap: 8px;
+}
+
+.edit-link, .delete-link {
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.edit-link {
+    background-color: #e3f2fd;
+    color: #1565c0;
+}
+
+.delete-link {
+    background-color: #ffebee;
+    color: #c62828;
+}
+
+/* RESPONSIVE BREAKPOINTS */
+@media (max-width: 1024px) {
+    .dashboard-container {
+        grid-template-columns: 1fr; /* Stack ke bawah di tablet */
+    }
+    
+    .form-column {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .top-nav {
+        flex-direction: column;
+        gap: 15px;
+        border-radius: 0 0 20px 20px;
+    }
+    
+    .top-actions {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .main-container {
+        padding: 15px;
+    }
+}

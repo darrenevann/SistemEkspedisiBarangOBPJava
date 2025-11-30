@@ -1,0 +1,62 @@
+[2025-11-22T09:37:58.776287600] Resi: R001, Tipe: KirimanReguler, Tujuan: Jakarta, Berat: 10.00 kg, Biaya: 50000.00
+[2025-11-22T09:37:58.791140500] Resi: C001, Tipe: KirimanKargo, Tujuan: Surabaya, Berat: 20.00 kg, Biaya: 60000.00
+[2025-11-22T09:37:58.793516700] Resi: K001, Tipe: KirimanKilat, Tujuan: Bandung, Berat: 10.00 kg, Biaya: 100000.00
+[2025-11-22T10:03:31.380591400] Resi: aa, Tipe: KirimanKilat, Tujuan: jakarta, Berat: 2.00 kg, Biaya: 36000.00
+[2025-11-22T10:04:54.644604100] Resi: a, Tipe: KirimanReguler, Tujuan: a, Berat: 2.00 kg, Biaya: 10000.00
+[2025-11-22T10:07:23.974128700] Resi: a, Tipe: KirimanKilat, Tujuan: a, Berat: 2.00 kg, Biaya: 36000.00
+[2025-11-22T10:10:46.103271800] Resi: a, Tipe: KirimanReguler, Tujuan: a, Berat: 2.00 kg, Biaya: 10000.00
+[2025-11-22T10:17:20.143331900] Resi: a, Tipe: KirimanReguler, Tujuan: a, Berat: 2.00 kg, Biaya: 10000.00
+[2025-11-22T10:21:14.615529600] Resi: a, Tipe: KirimanReguler, Tujuan: a, Berat: 2.00 kg, Biaya: 10000.00
+[2025-11-23T14:30:25.210957800] Resi: JP0001, Tipe: KirimanReguler, Tujuan: UNTAR 1, Berat: 2.00 kg, Biaya: 10000.00
+[2025-11-23T14:30:33.715709900] Resi: JP0001, Tipe: KirimanReguler, Tujuan: UNTAR 1, Berat: 2.00 kg, Biaya: 10000.00
+[2025-11-23T14:32:07.897988300] Resi: JP0002, Tipe: KirimanReguler, Tujuan: Kebayoran baru, Berat: 2.00 kg, Biaya: 10000.00
+[2025-11-23T14:48:35.202650400] Resi: JP0001, Tipe: KirimanReguler, Tujuan: Kebayoran baru, Berat: 2.00 kg, Biaya: 10000.00
+[2025-11-23T14:56:37.263224600] Resi: JP0002, Tipe: KirimanReguler, Tujuan: Cikoko, Berat: 3.00 kg, Biaya: 15000.00
+[2025-11-23T14:57:51.119482600] Resi: JP0001, Tipe: KirimanKilat, Tujuan: Kebayoran baru, Berat: 5.00 kg, Biaya: 60000.00
+[2025-11-23T14:58:09.529834100] Resi: JP0003, Tipe: KirimanKargo, Tujuan: UNTAR 1, Berat: 11.00 kg, Biaya: 33000.00
+[2025-11-23T15:03:01.914598400] Resi: JP0002, Tipe: KirimanReguler, Tujuan: Cikoko, Berat: 1.00 kg, Biaya: 5000.00
+[2025-11-23T15:03:07.691505900] Resi: JP0001, Tipe: KirimanKilat, Tujuan: Kebayoran baru, Berat: 7.00 kg, Biaya: 76000.00
+[2025-11-23T15:17:12.802548100] Resi: JP0004, Tipe: KirimanReguler, Tujuan: Petamburan, Berat: 1.20 kg, Biaya: 6000.00
+[2025-11-24T11:58:45.877447600] Resi: JP00006, Tipe: KirimanKilat, Tujuan: Semanggi, Berat: 0.60 kg, Biaya: 24800.00
+[2025-11-24T11:59:36.854820] Resi: JP0001, Tipe: KirimanReguler, Tujuan: UNTAR 1, Berat: 0.30 kg, Biaya: 1500.00
+[2025-11-24T12:27:52.199235900] Resi: JP0002, Tipe: KirimanReguler, Tujuan: Cikoko, Berat: 0.20 kg, Biaya: 1600.00
+[2025-11-24T12:28:09.201246] Resi: JP0002, Tipe: KirimanReguler, Tujuan: Cikoko, Berat: 0.60 kg, Biaya: 4800.00
+[2025-11-24T12:43:42.961812200] Resi: JP0002, Tipe: KirimanReguler, Tujuan: Cikoko Barat, Berat: 1.40 kg, Biaya: 11200.00
+[2025-11-24T12:43:49.160339100] Resi: JP0002, Tipe: KirimanReguler, Tujuan: Cikoko Barat, Berat: 1.40 kg, Biaya: 11200.00
+[2025-11-24T15:28:00.718508200] Resi: JP0004, Tipe: KirimanReguler, Tujuan: Cikoko Barat, Berat: 0.50 kg, Biaya: 4000.00
+[2025-11-24T15:56:50.912592100] Resi: JP0003, Tipe: KirimanKargo, Tujuan: UNTAR 1, Berat: 11.00 kg, Biaya: 110000.00
+[2025-11-24T16:03:40.670542900] Resi: JP0004, Tipe: KirimanReguler, Tujuan: Petamburan, Berat: 0.30 kg, Biaya: 2400.00
+[2025-11-24T16:44:45.996044300] Resi: JP0001, Tipe: KirimanKilat, Tujuan: Petamburan, Berat: 0.40 kg, Biaya: 22000.00
+[2025-11-24T16:44:51.957547900] Resi: JP0001, Tipe: KirimanKilat, Tujuan: Petamburan, Berat: 0.40 kg, Biaya: 22000.00
+[2025-11-24T16:46:46.170494300] Resi: JP0002, Tipe: KirimanKilat, Tujuan: Semanggi, Berat: 1.10 kg, Biaya: 25500.00
+[2025-11-24T16:46:53.808344400] Resi: JP0002, Tipe: KirimanKilat, Tujuan: Semanggi, Berat: 1.10 kg, Biaya: 25500.00
+[2025-11-24T16:47:30.176839100] Resi: JP0003, Tipe: KirimanReguler, Tujuan: BSD City, Berat: 0.50 kg, Biaya: 4000.00
+[2025-11-24T16:47:36.673195600] Resi: JP0003, Tipe: KirimanReguler, Tujuan: BSD City, Berat: 0.50 kg, Biaya: 4000.00
+[2025-11-24T17:36:26.419487600] Resi: JP0003, Tipe: KirimanKilat, Tujuan: Cikoko, Berat: 0.40 kg, Biaya: 22000.00
+[2025-11-24T17:36:33.045470800] Resi: JP0003, Tipe: KirimanKilat, Tujuan: Cikoko, Berat: 0.40 kg, Biaya: 22000.00
+[2025-11-25T15:25:45.277769200] Resi: JP0004, Tipe: KirimanKargo, Tujuan: Semanggi, Berat: 10.00 kg, Biaya: 100000.00
+[2025-11-25T15:26:19.656401500] Resi: JP0004, Tipe: KirimanReguler, Tujuan: Petamburan, Berat: 11.00 kg, Biaya: 88000.00
+[2025-11-25T15:26:35.244747700] Resi: JP0004, Tipe: KirimanReguler, Tujuan: Petamburan, Berat: 11.00 kg, Biaya: 88000.00
+[2025-11-25T15:27:17.872323700] Resi: JP0005, Tipe: KirimanReguler, Tujuan: UNTAR 1, Berat: 2.00 kg, Biaya: 16000.00
+[2025-11-25T15:27:44.986149700] Resi: JP0006, Tipe: KirimanKilat, Tujuan: Semanggi, Berat: 2.00 kg, Biaya: 30000.00
+[2025-11-25T15:29:13.554075600] Resi: JP0005, Tipe: KirimanReguler, Tujuan: UNTAR 1, Berat: 2.00 kg, Biaya: 16000.00
+[2025-11-25T15:29:25.270543400] Resi: JP0006, Tipe: KirimanKilat, Tujuan: Semanggi, Berat: 2.00 kg, Biaya: 30000.00
+[2025-11-25T15:30:09.981537500] Resi: JP0007, Tipe: KirimanKargo, Tujuan: Cikoko, Berat: 15.00 kg, Biaya: 150000.00
+[2025-11-25T15:30:15.503880700] Resi: JP0007, Tipe: KirimanKargo, Tujuan: Cikoko, Berat: 15.00 kg, Biaya: 150000.00
+[2025-11-26T12:26:09.184606200] Resi: JP0008, Tipe: KirimanReguler, Tujuan: Cimahi, Berat: 5.00 kg, Biaya: 40000.00
+[2025-11-26T12:26:29.993218700] Resi: JP0008, Tipe: KirimanReguler, Tujuan: Cimahi, Berat: 5.00 kg, Biaya: 40000.00
+[2025-11-26T12:26:43.119643900] Resi: JP0008, Tipe: KirimanReguler, Tujuan: Cimahi, Berat: 5.00 kg, Biaya: 40000.00
+[2025-11-26T12:40:18.281577800] Resi: JP0008, Tipe: KirimanKilat, Tujuan: Cimahi, Berat: 8.00 kg, Biaya: 60000.00
+[2025-11-26T13:58:45.112554400] Resi: JP0006, Tipe: KirimanReguler, Tujuan: Papua, Berat: 15.00 kg, Biaya: 120000.00
+[2025-11-26T14:09:48.851794400] Resi: JP0001, Tipe: KirimanKilat, Tujuan: Petamburan, Berat: 0.40 kg, Biaya: 22000.00
+[2025-11-26T14:10:25.808088400] Resi: JP0009, Tipe: KirimanReguler, Tujuan: dkjfbkjs, Berat: 10.00 kg, Biaya: 80000.00
+[2025-11-26T15:12:43.643734] Resi: JP0004, Tipe: KirimanReguler, Tujuan: Grogol, Berat: 2.00 kg, Biaya: 16000.00
+[2025-11-26T15:54:51.253064200] Resi: JP0004, Tipe: KirimanReguler, Tujuan: Grogol, Berat: 2.00 kg, Biaya: 16000.00
+[2025-11-26T16:26:17.120340400] Resi: JP0005, Tipe: KirimanReguler, Tujuan: Monas, Berat: 5.00 kg, Biaya: 40000.00
+[2025-11-26T16:26:54.214866] Resi: JP0006, Tipe: KirimanKilat, Tujuan: Monas, Berat: 5.00 kg, Biaya: 45000.00
+[2025-11-26T16:27:57.143624300] Resi: JP0007, Tipe: KirimanKargo, Tujuan: Monas, Berat: 11.00 kg, Biaya: 110000.00
+[2025-11-26T16:28:38.239945500] Resi: JP0006, Tipe: KirimanKilat, Tujuan: Monas, Berat: 10.00 kg, Biaya: 70000.00
+[2025-11-26T16:43:07.952535600] Resi: JP0006, Tipe: KirimanReguler, Tujuan: Monas, Berat: 10.00 kg, Biaya: 80000.00
+[2025-11-26T16:43:38.683072200] Resi: JP0008, Tipe: KirimanReguler, Tujuan: Monas, Berat: 20.00 kg, Biaya: 160000.00
+[2025-11-30T19:34:36.264045400] Resi: JP0007, Tipe: KirimanKargo, Tujuan: Monas, Berat: 11,00 kg, Biaya: 110000,00
+[2025-11-30T19:34:56.469124100] Resi: JP0007, Tipe: KirimanKargo, Tujuan: Monas, Berat: 11,00 kg, Biaya: 110000,00
